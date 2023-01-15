@@ -19,9 +19,10 @@ Type in 'yes'.
 4) After this you'll be asked to type in the password that you created. 
 
 ## Writing comands in VS code
-cd ~
-cd
-ls -lat
-ls -a
+1)cd ~
+2)cd
+3)ls -lat
+4)ls -a
+For example the command .... should give a similar result: ![Image](commands.png)
 
 
