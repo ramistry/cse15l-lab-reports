@@ -23,6 +23,6 @@ Type in 'yes'.
 2) cd
 3) ls -lat
 4) ls -a 
-For example the command .... should give a similar result: ![Image](commands.png)
+*For example the command ls -lat should give a similar result: ![Image](commands.png)
 
 
