@@ -36,6 +36,3 @@ Here are some more examples of commands utilized:
 2) ls stands for list
 3) cd stands for change directory
 4) This is what it looks like in VS code: ![Image](ls_and_cd.png)
-
-
-
