@@ -11,8 +11,10 @@
 
 ## How to remotely connect
 1) Open a terminal in VS code after installing it. (Use the shortcut keys Control + `). 
-2) Once the terminal is open type in the command:ssh cs15lwi23zz@ieng6.ucsd.edu. The 'zz' must be replaced by the characters given in your username while creating the account. Press enter. VS Code should look something like this: ![Image](ssh.png) 
-3) You'll see a message that says this: The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+2) Once the terminal is open type in the command:ssh cs15lwi23zz@ieng6.ucsd.edu. 
+3) The 'zz' must be replaced by the characters given in your username while creating the account.
+4) Press enter. VS Code should look something like this: ![Image](ssh.png) 
+5) You'll see a message that says this: The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 Type in 'yes'.
@@ -24,5 +26,11 @@ Type in 'yes'.
 3) ls -lat
 4) ls -a 
 * For example the command ls -lat should give a similar result: ![Image](commands.png)
+
+Here are some more examples of commands utilized: 
+1) The commands ls and cd have been called. 
+2) ls stands for list
+3) cd stands for change directory
+
 
 
