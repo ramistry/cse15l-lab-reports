@@ -13,8 +13,9 @@
 1) Open a terminal in VS code after installing it. (Use the shortcut keys Control + `). 
 2) Once the terminal is open type in the command:ssh cs15lwi23zz@ieng6.ucsd.edu. 
 3) The 'zz' must be replaced by the characters given in your username while creating the account.
-4) Press enter. VS Code should look something like this: ![Image](ssh.png) 
-5) You'll see a message that says this: The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+4) Press enter. 
+5) VS Code should look something like this: ![Image](ssh.png) 
+6) You'll see a message that says this: The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 6) Type in 'yes'.
