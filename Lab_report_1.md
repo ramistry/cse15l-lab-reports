@@ -29,6 +29,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 3) cd
 4) ls -lat
 5) ls -a 
+6) /home/linux/ieng6/cs15lwi23/cs15lwi23abc ( replace the abc with alphabets given in your group member's account name)
+7) After testing all this commands note the output that each one produces. 
 * For example the command ls -lat should give a similar result: ![Image](commands.png)
 
 Here are some more examples of commands utilized: 
@@ -36,3 +38,4 @@ Here are some more examples of commands utilized:
 2) ls stands for list
 3) cd stands for change directory
 4) This is what it looks like in VS code: ![Image](ls_and_cd.png)
+5) To exit the server, you must type in 'exit'.
