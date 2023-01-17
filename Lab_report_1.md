@@ -19,6 +19,8 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 6) Type in 'yes'.
 7) After this you'll be asked to type in the password that you created. 
+8) So what has happened? You are now connected to a computer situated in the basement of the CSE building.
+9) This Computer is your 'server'.
 
 ## Writing comands in VS code
 
