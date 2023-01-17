@@ -8,6 +8,7 @@
 ## How to install VS code:
 1) Click on the link: https://code.visualstudio.com/download
 2) Once you are on the page and if you are using a MAC, click on this install icon: ![Image](apple_install.png)
+3) If you are using a Windows device click on this install icon: 
 
 ## How to remotely connect
 1) Open a terminal in VS code after installing it. (Use the shortcut keys Control + `). 
