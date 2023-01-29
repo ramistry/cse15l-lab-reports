@@ -20,4 +20,5 @@ String line = "";
         }
     }
  ```
- 2) This is the result of adding messages: ![Image](outcome.png) Outcome after changing: ![Image](outcome2.png)
+ 2) This is the result of adding messages: ![Image](outcome.png) 
+ 3) Outcome after changing: ![Image](outcome2.png)
