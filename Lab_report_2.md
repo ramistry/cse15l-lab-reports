@@ -23,13 +23,12 @@ String line = "";
  2) This is the result of adding messages: ![Image](outcome.png) 
  3) Outcome after changing: ![Image](outcome2.png)
  4) The methods that are called are: ".contains()", ".getQuery()",".split()", and ".equals()".
-    1) .contains checks if a particular String contains a particular segment.
-    2) The argument consists of the thing that is being compared, which is "/add-message". 
-    
-    1) .getQuery is checking what s=xyz is being set to.
-   
-    1) .split splits the path into two parts at the point where it finds an "="
-    2) argument consists of the String "="
-    
-    1) .equals deep compares the two elements 
-    2) agument consists of "s"
+    * .contains checks if a particular String contains a particular segment.
+    * The argument consists of the thing that is being compared, which is "/add-message". 
+    * .getQuery is checking what s=xyz is being set to.
+    * .split splits the path into two parts at the point where it finds an "="
+    * argument consists of the String "="
+    * .equals deep compares the two elements 
+    * agument consists of "s"
+
+5) The field that changes is the line field. A new string is concatenated so the value of the line variable changes.
