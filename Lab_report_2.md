@@ -34,9 +34,26 @@ String line = "";
 5) The field that changes is the line field. A new string is concatenated so the value of the line variable changes.
 
 ## Part 2: Lab Report 2
-_Testing JUNit_
+_Testing JUnit_
 * We are testing the reverseInPlace method. 
-1) This code causes error: 
+
+1) The inputs and their appropriate tests look like this:
+```
+@Test
+public void testReverseInPlace(){
+int[] input1 = {3};
+int[] input2 = {1,2,3};
+ArrayExamples.reverseInPlace(input1);
+ArrayExamples.reverseInPlace(input2);
+assertArrayEquals(new int[]{3}, input1);
+assertArrayEquals(new int[]{3,2,1}, input2);
+}
+```
+
+2) The output to these tests look like this: 
+* ![Image](image2.png)
+
+3) This code causes error: 
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -44,7 +61,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-2) The code that needs to be written in order to run the test properly:
+4) The code that needs to be written in order to run the test properly:
 ```
 static void reverseInPlace(int[] arr){
     int [] newArray = new int[arr.length];
@@ -57,7 +74,7 @@ static void reverseInPlace(int[] arr){
     return arr;
 }
 ```
-3) The inputs and their appropriate tests look like this:
-* ![Image](Tester.png)
-4) The output to these tests look like this: 
-* ![Image](image2.png)
+## Part 3: What have I learned?
+_Learning_
+
+1) I have learned how to create a s
