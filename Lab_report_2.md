@@ -37,21 +37,22 @@ String line = "";
 _Testing JUNit_
 1) This code causes error: 
 ```
-static int [] reversed (int [] arr){
-    int [] newArray = new int[arr.length];
-    for(int i =0; i < arr.length; i++){
-        arr[i] = arr[arr.length - i - 1];
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
     }
-    return arr;
 }
 ```
 2) The code that needs to be written in order to run the test properly:
 ```
-static int [] reversed (int [] arr){
+static void reverseInPlace(int[] arr){
     int [] newArray = new int[arr.length];
-    for(int i =0; i < arr.length; i++){
+    for(int i = 0; i < arr.length; i++){
         newArray[i] = arr[arr.length - i - 1];
     }
-    return newArray;
+    for(int i = 0; i < arr.length; i++){
+        arr[i] = newArray[i];
+    }
+    return arr;
 }
 ```
