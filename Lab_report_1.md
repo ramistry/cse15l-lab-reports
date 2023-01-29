@@ -43,6 +43,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
     * This lists all the files that are in the current working directory.
 3) cd stands for change directory
     * This changes the current working directory. Typing the command ls right after changing the directory will list all the files in the new current working directory. You may notice that running the "ls"command produces different results this time. It is because each working directory will have different files. 
-*
-4) This is what it looks like in VS code: ![Image](ls_and_cd.png)
+* This is what you should observe if you open a folder on your desktop in VS code(your files will be different): ![Image](ls_cd_.png)
+4) This is what it looks like in VS code while connected to the server: ![Image](ls_and_cd.png)
 5) To exit the server, you must type in 'exit'.
