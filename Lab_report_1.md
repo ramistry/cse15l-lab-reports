@@ -40,10 +40,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 1) You must type in the commands into the VS code terminal
 ```
 1) cd~
+
 2) cd
+
 3) ls -lat
+
 4) ls -a 
+
 5) /home/linux/ieng6/cs15lwi23/cs15lwi23abc 
+
 6) ( replace the abc with alphabets given in your group member's account name)
 ```
 2) After testing all this commands note the output that each one produces. 
