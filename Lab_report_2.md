@@ -58,6 +58,6 @@ static void reverseInPlace(int[] arr){
 }
 ```
 3) The inputs and their appropriate tests look like this:
-* ![Image](image.png)
+* ![Image](Tester.png)
 4) The output to these tests look like this: 
 * ![Image](image2.png)
