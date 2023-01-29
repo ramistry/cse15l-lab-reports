@@ -32,3 +32,26 @@ String line = "";
     * agument consists of "s"
 
 5) The field that changes is the line field. A new string is concatenated so the value of the line variable changes.
+
+## Part 2: Lab Report 2
+_Testing JUNit_
+1) This code causes error: 
+```
+static int [] reversed (int [] arr){
+    int [] newArray = new int[arr.length];
+    for(int i =0; i < arr.length; i++){
+        arr[i] = arr[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+2) The code that needs to be written in order to run the test properly:
+```
+static int [] reversed (int [] arr){
+    int [] newArray = new int[arr.length];
+    for(int i =0; i < arr.length; i++){
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
