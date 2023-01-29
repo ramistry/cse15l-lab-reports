@@ -35,6 +35,7 @@ String line = "";
 
 ## Part 2: Lab Report 2
 _Testing JUNit_
+* We are testing the reverseInPlace method. 
 1) This code causes error: 
 ```
 static void reverseInPlace(int[] arr) {
@@ -59,4 +60,4 @@ static void reverseInPlace(int[] arr){
 3) The inputs and their appropriate tests look like this:
 * ![Image](image.png)
 4) The output to these tests look like this: 
-
+* ![Image](image2.png)
