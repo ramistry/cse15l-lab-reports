@@ -56,3 +56,7 @@ static void reverseInPlace(int[] arr){
     return arr;
 }
 ```
+3) The inputs and their appropriate tests look like this:
+* ![Image](image.png)
+4) The output to these tests look like this: 
+
