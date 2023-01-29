@@ -22,3 +22,8 @@ String line = "";
  ```
  2) This is the result of adding messages: ![Image](outcome.png) 
  3) Outcome after changing: ![Image](outcome2.png)
+ 4) The methods that are called are: ".contains()", ".getQuery()",".split()", and ".equals()".
+    1) .contains checks if a particular String contains a particular segment
+    2) .getQuery is checking what s=xyz is being set to
+    3) .split splits the path into two parts at the point where it finds an "="
+    4) .equals deep compares the two elements 
