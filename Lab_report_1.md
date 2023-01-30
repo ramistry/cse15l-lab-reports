@@ -67,5 +67,5 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 #### _Pointers:_
 1. Try typing the command ```cd ~ ```
-2. (the function of cd ~ is to take you back to the home directory) 
+2. (the function of ```cd ~``` is to take you back to the home directory) 
 3.  And then type ```ls```. 
