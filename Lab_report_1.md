@@ -73,5 +73,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 #### _Pointers:_
 ```
-Try typing the command cd ~ (the function of cd ~ is to take you back to the home directory) and then type ls. 
+1. Try typing the command cd ~ (the function of cd ~ is to take you back to the home directory) 
+2. And then type ls. 
 ```
