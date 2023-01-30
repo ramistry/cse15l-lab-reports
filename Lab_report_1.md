@@ -6,7 +6,7 @@
 4. Once that is done you have created a new CSE 15L account
 
 ## How to install VS code:
-1) Click on the link: https://code.visualstudio.com/download
+1) Click on the (link)[https://code.visualstudio.com/download].
 
 2) Once you are on the page and if you are using a MAC, click on this install icon:![Image](apple_install.png)
 
