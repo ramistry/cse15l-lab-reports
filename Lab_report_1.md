@@ -39,13 +39,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 1) You must type in the commands into the VS code terminal
 ```
-1) cd~
+1) cd ~
 
-2) cd
+2) cd (change directory)
 
-3) ls -lat
+3) ls -lat (list with permissions)
 
-4) ls -a 
+4) ls -a (will list hidden files in the directory)
 
 5) /home/linux/ieng6/cs15lwi23/cs15lwi23abc 
 
