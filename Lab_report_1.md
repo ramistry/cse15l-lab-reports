@@ -38,19 +38,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ## Writing comands in VS code
 
 1) You must type in the commands into the VS code terminal
-```
-1) cd ~
+  * ```cd ~```
+  * ```cd``` (change directory)
+  *  ```ls -lat``` (list with permissions)
+  *   ```ls -a``` (will list hidden files in the directory)
+  *   /home/linux/ieng6/cs15lwi23/cs15lwi23abc 
+  *   ( replace the abc with alphabets given in your group member's account name)
 
-2) cd (change directory)
-
-3) ls -lat (list with permissions)
-
-4) ls -a (will list hidden files in the directory)
-
-5) /home/linux/ieng6/cs15lwi23/cs15lwi23abc 
-
-6) ( replace the abc with alphabets given in your group member's account name)
-```
 2) After testing all this commands note the output that each one produces. 
    * For example the command ls -lat should give a similar result: ![Image](commands.png)
 
@@ -72,8 +66,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 5) To exit the server, you must type in 'exit'.
 
 #### _Pointers:_
-```
-1. Try typing the command cd ~ 
-2.(the function of cd ~ is to take you back to the home directory) 
-3. And then type ls. 
-```
+1. Try typing the command ```cd ~ ```
+2. (the function of cd ~ is to take you back to the home directory) 
+3.  And then type ```ls```. 
