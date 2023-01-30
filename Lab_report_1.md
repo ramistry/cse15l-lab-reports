@@ -46,24 +46,24 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
   *   ( replace the abc with alphabets given in your group member's account name)
 
 2) After testing all this commands note the output that each one produces. 
-   * For example the command ls -lat should give a similar result: ![Image](commands.png)
+   * For example the command ```ls -lat``` should give a similar result: ![Image](commands.png)
 
 #### Here are some more examples of commands utilized: 
-1) The commands ls and cd have been called. 
+1) The commands ```ls``` and ```cd``` have been called. 
 
-2) ls stands for list 
+2) ```ls``` stands for list 
    * This lists all the files that are in the current working directory.
 
-3) cd stands for change directory
+3) ```cd``` stands for change directory
    * This changes the current working directory. 
    * Typing the command ls right after changing the directory will list all the files in the new current working directory. 
-   * You may notice that running the "ls"command produces different results this time. 
+   * You may notice that running the ```ls``` command produces different results this time. 
    * It is because each working directory will have different files. 
    * This is what you should observe if you open a folder on your desktop in VS code(your files will be different): ![Image](ls_cd_.png)
 
 4) This is what it looks like in VS code while connected to the server: ![Image](ls_and_cd.png)
 
-5) To exit the server, you must type in 'exit'.
+5) To exit the server, you must type in ```exit```.
 
 #### _Pointers:_
 1. Try typing the command ```cd ~ ```
