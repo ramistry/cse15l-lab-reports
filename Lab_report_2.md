@@ -77,6 +77,6 @@ static void reverseInPlace(int[] arr){
 ## Part 3: Lab Report 2
 _Learning_
 
-1. I have learned how to create a server
-2. I have learned how to use JUnit in order to test for bugs
-3. I have learned how to modify the URL of a website in order to produce a certain output
+* I have learned how to create a server
+* I have learned how to use JUnit in order to test for bugs
+* I have learned how to modify the URL of a website in order to produce a certain output
