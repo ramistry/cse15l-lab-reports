@@ -54,7 +54,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 3) ```cd``` stands for change directory
    * This changes the current working directory. 
-   * Typing the command ls right after changing the directory will list all the files in the new current working directory. 
+   * I learned that typing the command ls right after changing the directory will list all the files in the new current working directory. 
    * You may notice that running the ```ls``` command produces different results this time. 
    * It is because each working directory will have different files. 
    * This is what you should observe if you open a folder on your desktop in VS code(your files will be different): ![Image](ls_cd_.png)
@@ -64,6 +64,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 5) To exit the server, you must type in ```exit```.
 
 #### _Pointers:_
-1. Try typing the command ```cd ~ ```
-2. (the function of ```cd ~``` is to take you back to the home directory) 
+1. Try typing the command ```cd ~ ```.
+2. (the function of ```cd ~``` is to take you back to the home directory). 
 3.  And then type ```ls```. 
