@@ -1,7 +1,7 @@
 ## Part 1: Lab Report 2
 _Creating a String Server:_ 
 
-1) This is what the code looks like: 
+1. This is what the code looks like: 
 ```   
 String line = "";
     public String handleRequest(URI url) {
@@ -20,9 +20,9 @@ String line = "";
         }
     }
  ```
- 2) This is the result of adding messages: ![Image](outcome.png) 
- 3) Outcome after changing: ![Image](outcome2.png)
- 4) The methods that are called are: ".contains()", ".getQuery()",".split()", and ".equals()".
+ 2. This is the result of adding messages: ![Image](outcome.png) 
+ 3. Outcome after changing: ![Image](outcome2.png)
+ 4. The methods that are called are: ".contains()", ".getQuery()",".split()", and ".equals()".
     * .contains checks if a particular String contains a particular segment.
     * The argument consists of the thing that is being compared, which is "/add-message". 
     * .getQuery is checking what s=xyz is being set to.
@@ -31,13 +31,13 @@ String line = "";
     * .equals deep compares the two elements 
     * agument consists of "s"
 
-5) The field that changes is the line field. A new string is concatenated so the value of the line variable changes.
+5. The field that changes is the line field. A new string is concatenated so the value of the line variable changes.
 
 ## Part 2: Lab Report 2
 _Testing JUnit_
 * We are testing the reverseInPlace method. 
 
-1) The inputs and their appropriate tests look like this:
+1. The inputs and their appropriate tests look like this:
 ```
 @Test
 public void testReverseInPlace(){
@@ -50,10 +50,10 @@ assertArrayEquals(new int[]{3,2,1}, input2);
 }
 ```
 
-2) The output to these tests look like this: 
+2. The output to these tests look like this: 
 * ![Image](image2.png)
 
-3) This code causes error: 
+3. This code causes error: 
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -61,7 +61,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-4) The code that needs to be written in order to run the test properly:
+4. The code that needs to be written in order to run the test properly:
 ```
 static void reverseInPlace(int[] arr){
     int [] newArray = new int[arr.length];
@@ -77,6 +77,6 @@ static void reverseInPlace(int[] arr){
 ## Part 3: Lab Report 2
 _Learning_
 
-1) I have learned how to create a server.
-2) I have learned how to use JUnit in order to test for bugs.
-3) I have learned how to modify the URL of a website in order to produce a certain output.
+1. I have learned how to create a server.
+2. I have learned how to use JUnit in order to test for bugs.
+3. I have learned how to modify the URL of a website in order to produce a certain output.
