@@ -35,7 +35,7 @@ String line = "";
 
 ## Part 2: Lab Report 2
 _Testing JUnit_
-* We are testing the reverseInPlace method. 
+* We are testing the reverseInPlace method as the buggy code. 
 
 1. The inputs and their appropriate tests look like this:
 ```
@@ -51,7 +51,7 @@ assertArrayEquals(new int[]{3,2,1}, input2);
 ```
 
 2. The output to these tests look like this: 
-    * ![Image](image2.png)
+* ![Image](image2.png)
 
 3. This code causes error: 
 ```
