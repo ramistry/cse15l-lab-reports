@@ -51,7 +51,7 @@ assertArrayEquals(new int[]{3,2,1}, input2);
 ```
 
 2. The output to these tests look like this: 
-* ![Image](image2.png)
+    * ![Image](image2.png)
 
 3. This code causes error: 
 ```
