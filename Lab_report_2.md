@@ -82,7 +82,7 @@ This because once the loop is executed the third time, the first element
 is no longer R, it is H. 
 
 The solution creates a new array in which the elements are then copied
-in reverse. The second for loop copies the elements of the new array 
+in reverse. The second ```for``` loop copies the elements of the new array 
 into the original array. 
 ## Part 3: Lab Report 2
 _Learning_
