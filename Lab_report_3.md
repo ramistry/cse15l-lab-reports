@@ -2,7 +2,7 @@
 
 The find command is used to search for files within the system. 
 * Let us have a look at some of its command line options
-## 1) find "xyz" option: the xyz is replaced by the directory name ```find "written_2"```.
+## 1) find "xyz" option: the xyz is replaced by the directory name ```find "xyz"```.
    The resulting output is quite long. This is because this command finds all the files
    within (and inclusive of) the directory name given in double quotes.
 
