@@ -329,7 +329,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    ```find "Abernathy"``` is not present. This is because it is
    not a file. 
    
-   Here is another example: 
+   ### Here is another example: 
    ```
    find "Berk" -type f
    ```
@@ -370,7 +370,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    Berk
    ```
    
-   Another example: 
+   ### Another example: 
    
    Type in the command:
    ```
