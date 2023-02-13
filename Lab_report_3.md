@@ -357,4 +357,33 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    a list of files instead of having to manually differentiate
    between file names and directories.
    
-## 4) find "xyz" -type d
+## 4) find "xyz" -type d: find only directories not files 
+   Currently my ```pwd``` is OUP, which is within non-fiction
+   
+   Type in the command:
+   ```
+   find "Berk" -type d
+   ```
+   
+   The output:
+   ```
+   Berk
+   ```
+   
+   Another example: 
+   
+   Type in the command:
+   ```
+   find "Abernathy" -type d
+   ```
+   
+   The output:
+   ```
+   Abernathy
+   ```
+   
+   This command is useful if you only want
+   to find the directory and not the files.
+   
+      
+     
