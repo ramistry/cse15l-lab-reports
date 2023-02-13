@@ -1,4 +1,4 @@
-### Using the find command
+# Using the find command
 
 The find command is used to search for files within the system. 
 * Let us have a look at some of its command line options
