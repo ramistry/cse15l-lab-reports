@@ -418,8 +418,6 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    Berk/ch7.txt
    Berk
    ```
-   This command is useful if patern of output
-   matter a lot. 
-
-   
-   
+   This command is useful if the patern of output
+   matter a lot. The format can help if the parent
+   directory content needs to be found first. 
