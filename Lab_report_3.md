@@ -279,7 +279,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ## 2) find -iname "xyz*" option: finds name of files starting
   with xyz, but without being case sensitive. 
   
-  Currently my pwd is written_2
+  Currently my ```pwd``` is written_2
   
   Use the command: 
   ```
@@ -305,4 +305,51 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   ./written_2/non-fiction/OUP/Abernathy
   ```
   
-## 3) 
+## 3) find "xyz" -type f: find only files not directories
+   Currently my ```pwd``` is OUP, which is within non-fiction
+   
+   Type in the commands:
+   ```
+   find "Abernathy" -type f
+   ```
+   
+   The output:
+   ```
+   Abernathy/ch1.txt
+   Abernathy/ch14.txt
+   Abernathy/ch15.txt
+   Abernathy/ch2.txt
+   Abernathy/ch3.txt
+   Abernathy/ch6.txt
+   Abernathy/ch7.txt
+   Abernathy/ch8.txt
+   Abernathy/ch9.txt
+   ```
+   Notice that the first ```Abernathy``` which we found using 
+   ```find "Abernathy"``` is not present. This is because it is
+   not a file. 
+   
+   Here is another example: 
+   ```
+   find "Berk" -type f
+   ```
+   The output:
+   ```
+   Berk/CH4.txt
+   Berk/ch1.txt
+   Berk/ch2.txt
+   Berk/ch7.txt
+   ```
+   
+   As opposed to:
+   ```
+   find "Berk"
+   ```
+   With the output:
+   ```
+   Berk
+   Berk/CH4.txt
+   Berk/ch1.txt
+   Berk/ch2.txt
+   Berk/ch7.txt
+   ```
