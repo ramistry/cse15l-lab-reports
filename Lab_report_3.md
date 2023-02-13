@@ -356,3 +356,5 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    The benefit of using this command is that you can have 
    a list of files instead of having to manually differentiate
    between file names and directories.
+   
+## 4) find "xyz" -type d
