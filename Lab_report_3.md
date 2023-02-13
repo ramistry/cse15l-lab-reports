@@ -384,3 +384,42 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    
    This command is useful if you only want
    to find the directory and not the files.
+
+## 5) find "xyz" -depth: finds files from parent directory to working directory
+   Type the command:
+   ```
+   find "Abernathy" -depth
+   ```
+   
+   Output:
+   ```
+   Abernathy/ch1.txt
+   Abernathy/ch14.txt
+   Abernathy/ch15.txt
+   Abernathy/ch2.txt
+   Abernathy/ch3.txt
+   Abernathy/ch6.txt
+   Abernathy/ch7.txt
+   Abernathy/ch8.txt
+   Abernathy/ch9.txt
+   Abernathy
+   ```
+   ### Here's another example:
+   
+   Type the command:
+   ```
+   find "Berk" -depth
+   ```
+   Here's the output:
+   ```
+   Berk/CH4.txt
+   Berk/ch1.txt
+   Berk/ch2.txt
+   Berk/ch7.txt
+   Berk
+   ```
+   This command is useful if patern of output
+   matter a lot. 
+
+   
+   
