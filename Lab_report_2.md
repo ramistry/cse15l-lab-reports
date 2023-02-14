@@ -76,10 +76,10 @@ static void reverseInPlace(int[] arr){
 ```
 The reason why the first code doesn't work is because the array 
 that it is copying from is also the one that is changing. So for 
-example an array has the strings "R", "A", and "H" respectively. 
-Using the first code will lead to an array with HAH, instead of HAR.
+example an array has the integers 1, 2, and 3 respectively. 
+Using the first code will lead to an array with 323, instead of 321.
 This because once the loop is executed the third time, the first element 
-is no longer R, it is H. 
+is no longer 1, it is 3. 
 
 The solution creates a new array in which the elements are then copied
 in reverse. The second ```for``` loop copies the elements of the new array 
