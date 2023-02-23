@@ -5,6 +5,12 @@ The find command is used to search for files within the system.
 ## 1) find "xyz" option: the xyz is replaced by the directory name.
    The resulting output is quite long. This is because this command finds all the files
    within (and inclusive of) the directory name given in double quotes.
+   
+Use the command:
+```
+find "written_2"
+```
+The result is:
 
 ```
 written_2
@@ -276,12 +282,12 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   and there are fewer files inside the subdirectory than
   in the parent directory.
   
-  Sources: adamtheautomator.com
+  Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
   
 ## 2) find -iname "xyz*" option: finds name of files starting
   with xyz, but without being case sensitive. 
   
-  Currently my ```pwd``` is written_2
+  Currently my working directory is written_2.
   
   Use the command: 
   ```
@@ -307,7 +313,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   ./written_2/non-fiction/OUP/Abernathy
   ```
   
-  Sources: adamtheautomator.com
+  Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
   
 ## 3) find "xyz" -type f: find only files not directories
    Currently my ```pwd``` is OUP, which is within non-fiction
@@ -333,7 +339,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    ```find "Abernathy"``` is not present. This is because it is
    not a file. 
    
-   Sources: adamtheautomator.com
+   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
 #### Here is another example: 
    ```
    find "Berk" -type f
@@ -362,7 +368,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    a list of files instead of having to manually differentiate
    between file names and directories.
    
-   Sources: adamtheautomator.com
+   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
    
 ## 4) find "xyz" -type d: find only directories not files 
    Currently my ```pwd``` is OUP, which is within non-fiction
@@ -392,9 +398,12 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    This command is useful if you only want
    to find the directory and not the files.
    
-   Sources: adamtheautomator.com
+   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
 
 ## 5) find "xyz" -depth: finds files from parent directory to working directory
+   All files and folders are listed in depth-first order when using the depth option. 
+   Thus,the working directory's contents are listed after the parent directory's contents.
+   
    Type the command:
    ```
    find "Abernathy" -depth
@@ -431,4 +440,4 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    matter a lot. The format can help if the parent
    directory content needs to be found first. 
    
-   Sources: adamtheautomator.com
+   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
