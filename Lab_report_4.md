@@ -21,7 +21,7 @@
   ### Cloning 
 
   I cloned the repository using this command:
-  ![Cloned](Cloned)
+  ![Cloning](Cloning)
   ```
   git clone git@github.com:ramistry/lab7.git
   ```
