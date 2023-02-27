@@ -14,7 +14,7 @@
 
   ![Login](Login.png)
 
-#### Keys pressed: <up><enter>
+#### Keys pressed: < up > < enter >
   
   After exiting the server, the ssh command was the first command
   to appear.
