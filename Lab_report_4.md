@@ -21,7 +21,7 @@
   ### Cloning 
 
   I cloned the repository using this command:
-  ![Cloning](Cloning)
+  ![Cloning](Cloning.png)
   ```
   git clone git@github.com:ramistry/lab7.git
   ```
@@ -29,7 +29,7 @@
   During the repetition of the lab task, I had to use the same
   command.
   
-  Keys pressed: <up><up><up><up><up><up><up><up><up><enter>
+  Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
   The cloning command was the second command to be executed after logging
   in, thus it required so many <up> commands
   
@@ -39,7 +39,7 @@
   ```
   cd lab7
   ```
-  Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
+  Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   
   ### Running the JUnit Tests
   
@@ -53,26 +53,27 @@
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
   ```
   
-  Keys pressed: <up><up><up><up><up><up><up><up><enter>
+  Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   This compiled the JUnit tests.
   I had to run the tests as well. 
   ```
   java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
   ```
   
-  Keys pressed: <up><up><up><up><up><up><up><up><enter>
+  Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > <enter>
   
   The output showed two tests running, out of which one failed.
   
-  ![OutputJ](OutputJ.png)
+  ![Fail_test](Fail_test.png)
   
   ### Changing the code
   
   The command I used to change the code was:
+  ![Nano](Nano.png)
   ```
   nano ListExamples.java
   ```
-  Keys pressed: <up><up><up><up><up><up><up><up><up><up><up><enter>
+  Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   
   The code that was wrong was the final while loop:
   ```
@@ -84,6 +85,7 @@
                                   
   
  This was was corrected to:
+ ![Changing](Changing.png)                               
  ```
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
@@ -110,6 +112,7 @@
   ### Committing and Pushing
   
   The commands I used for these steps:
+  ![Commit_push](Commit_push)
   ```
   git add ListExamples.java
   
@@ -126,3 +129,6 @@
   
   The third command took the same key presses:
   Keys pressed: <up><up><up><up><up><up><up><enter>
+  
+  These changes then showed up on the github repository that was forked.
+  ![Change_on_Git](Change_on_Git)
