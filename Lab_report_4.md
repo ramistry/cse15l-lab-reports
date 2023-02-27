@@ -1,6 +1,6 @@
 ## Lab Report 4
 
-  ### Logging into ieng6
+### Logging into ieng6
   After completing the lab task once, I had to remove the respository
   from my directory.
 
@@ -14,7 +14,7 @@
 
   ![Login](Login.png)
 
-  #### Keys pressed: <up><enter>
+#### Keys pressed: <up><enter>
   
   After exiting the server, the ssh command was the first command
   to appear.
@@ -31,7 +31,7 @@
   During the repetition of the lab task, I had to use the same
   command.
   
-  #### Keys pressed : < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
+#### Keys pressed : < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
   
   The cloning command was the second command to be executed after logging
   in, thus it required so many <up> commands
@@ -42,9 +42,9 @@
   ```
   cd lab7
   ```
-  #### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   
-  ### Running the JUnit Tests
+### Running the JUnit Tests
   
   This command was used twice during the first try, so I did not 
   have to press <up> till I reached the first command to run the test.
@@ -57,7 +57,7 @@
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
   ```
   
-  #### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   
   This compiled the JUnit tests.
   I had to run the tests as well. 
@@ -65,20 +65,20 @@
   java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
   ```
   
-  #### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > <enter>
+#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > <enter>
   
   The output showed two tests running, out of which one failed.
   
   ![Fail_test](Fail_test.png)
   
-  ### Changing the code
+### Changing the code
   
   The command I used to change the code was:
   ![Nano](Nano.png)
   ```
   nano ListExamples.java
   ```
-  #### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
   
   The code that was wrong was the final while loop:
   
@@ -120,7 +120,7 @@
   
 
   
-  ### Committing and Pushing
+### Committing and Pushing
   
   The commands I used for these steps:
   ![Commit_push](Commit_push.png)
@@ -134,15 +134,15 @@
   
   The first command ```git add ListExamples.java``` took:
   
-  #### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
   
   The second command ```git commit -m "File has been changed"``` also took:
   
-  #### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
   
   The third command took the same key presses:
   
-  #### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
   
   These changes then showed up on the github repository that was forked.
   
