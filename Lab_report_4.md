@@ -106,7 +106,7 @@
   ```
   Ctrl-O
   ```
-  Keys pressed: <enter>
+#### Keys pressed: < enter >
   
   To exit from ``nano``: 
   
