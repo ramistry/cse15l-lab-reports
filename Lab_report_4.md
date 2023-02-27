@@ -19,7 +19,7 @@
   After exiting the server, the ssh command was the first command
   to appear.
 
-  ### Cloning 
+### Cloning 
 
   I cloned the repository using this command:
   
