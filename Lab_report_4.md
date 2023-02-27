@@ -9,7 +9,7 @@
   rm -r lab7
   ```
 
-  1) After confirming the removal I restarted my lab task
+  After confirming the removal I restarted my lab task
   by logging into the ieng6 account:
 
   ![Login](Login.png)
@@ -26,14 +26,14 @@
   git clone git@github.com:ramistry/lab7.git
   ```
   
-  1) During the repetition of the lab task, I had to use the same
+  During the repetition of the lab task, I had to use the same
   command.
   
   Keys pressed: <up><up><up><up><up><up><up><up><up><enter>
   The cloning command was the second command to be executed after logging
   in, thus it required so many <up> commands
   
-  2) Change directory to lab7.
+  Change directory to lab7.
   
   This required the command:
   ```
@@ -72,5 +72,57 @@
   ```
   nano ListExamples.java
   ```
-
-
+  Keys pressed: <up><up><up><up><up><up><up><up><up><up><up><enter>
+  
+  The code that was wrong was the final while loop:
+  ```
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1;
+    }
+  ```
+                                  
+  
+ This was was corrected to:
+ ```
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1;
+    }   
+  ```
+  
+  The commands that I used next did not show up in the bash history
+  
+  To save the edited file to disk:
+  ```
+  Ctrl-O
+  ```
+  Keys pressed: <enter>
+  
+  To exit from ``nano``: 
+  
+  ```
+  Ctrl-X
+  ```
+  These two commands saved the changes made to the code and successfully left
+  the command line text editor (nano).
+  
+  ### Committing and Pushing
+  
+  The commands I used for these steps:
+  ```
+  git add ListExamples.java
+  
+  git commit -m "File has been changed"
+  
+  git push
+  ```
+  
+  The first command ```git add ListExamples.java``` took:
+  Keys pressed: <up><up><up><up><up><up><up><enter>
+  
+  The second command ```git commit -m "File has been changed"``` also took:
+  Keys pressed: <up><up><up><up><up><up><up><enter>
+  
+  The third command took the same key presses:
+  Keys pressed: <up><up><up><up><up><up><up><enter>
