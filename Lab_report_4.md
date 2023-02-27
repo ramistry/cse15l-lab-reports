@@ -31,7 +31,7 @@
   During the repetition of the lab task, I had to use the same
   command.
   
-  #### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
+  #### Keys pressed : < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
   
   The cloning command was the second command to be executed after logging
   in, thus it required so many <up> commands
