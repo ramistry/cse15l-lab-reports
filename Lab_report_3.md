@@ -284,8 +284,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   
   Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
   
-## 2) find -iname "xyz*" option: finds name of files starting
-  with xyz, but without being case sensitive. 
+## 2) find -iname "xyz*" option: finds name of files starting with xyz, but without being case sensitive. 
   
   Currently my working directory is written_2.
   
