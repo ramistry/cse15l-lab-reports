@@ -400,7 +400,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    
    Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
 
-## 5) find "xyz" -depth: finds files from parent directory to working directory
+## 5) find "xyz" -depth
    All files and folders are listed in depth-first order when using the depth option. 
    Thus,the working directory's contents are listed after the parent directory's contents.
    
