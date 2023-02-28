@@ -14,7 +14,7 @@
 
   ![Login](Login.png)
 
-#### Keys pressed: < up > < enter >
+#### Keys pressed: ```<up><enter>```
   
   After exiting the server, the ssh command was the first command
   to appear.
@@ -31,7 +31,7 @@
   During the repetition of the lab task, I had to use the same
   command.
   
-#### Keys pressed : < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >.
+#### Keys pressed : ```<up><up><up><up><up><up><up><up><up><enter>```
   
   The cloning command was the second command to be executed after logging
   in, thus it required so many <up> commands
@@ -42,7 +42,7 @@
   ```
   cd lab7
   ```
-#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><enter>``
   
 ### Running the JUnit Tests
   
@@ -57,7 +57,7 @@
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
   ```
   
-#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><up><enter>```
   
   This compiled the JUnit tests.
   I had to run the tests as well. 
@@ -65,7 +65,7 @@
   java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
   ```
   
-#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > <enter>
+#### Keys pressed: ```<up><up><up><up><up><up><up><up><enter>```
   
   The output showed two tests running, out of which one failed.
   
@@ -78,7 +78,7 @@
   ```
   nano ListExamples.java
   ```
-#### Keys pressed: < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><enter>```
   
   The code that was wrong was the final while loop:
   
@@ -106,7 +106,7 @@
   ```
   Ctrl-O
   ```
-#### Keys pressed: < enter >
+#### Keys pressed: ```<enter>```
   
   To exit from ``nano``: 
   
@@ -134,15 +134,15 @@
   
   The first command ```git add ListExamples.java``` took:
   
-#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><enter>```
   
   The second command ```git commit -m "File has been changed"``` also took:
   
-#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><enter>```
   
   The third command took the same key presses:
   
-#### Keys pressed: < up > < up > < up > <up> < up > < up > < up > < enter >
+#### Keys pressed: ```<up><up><up><up><up><up><up><enter>```
   
   These changes then showed up on the github repository that was forked.
   
