@@ -42,7 +42,7 @@
   ```
   cd lab7
   ```
-#### Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><enter>``
+#### Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><enter>```
   
 ### Running the JUnit Tests
   
