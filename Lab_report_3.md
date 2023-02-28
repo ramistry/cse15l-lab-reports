@@ -282,7 +282,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   and there are fewer files inside the subdirectory than
   in the parent directory.
   
-  Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+  Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
   
 ## 2) find -iname "xyz*" option: finds name of files starting
   with xyz, but without being case sensitive. 
@@ -313,7 +313,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
   ./written_2/non-fiction/OUP/Abernathy
   ```
   
-  Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+  Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
   
 ## 3) find "xyz" -type f: find only files not directories
    Currently my ```pwd``` is OUP, which is within non-fiction
@@ -339,7 +339,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    ```find "Abernathy"``` is not present. This is because it is
    not a file. 
    
-   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+   Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
 #### Here is another example: 
    ```
    find "Berk" -type f
@@ -368,7 +368,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    a list of files instead of having to manually differentiate
    between file names and directories.
    
-   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+   Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
    
 ## 4) find "xyz" -type d: find only directories not files 
    Currently my ```pwd``` is OUP, which is within non-fiction
@@ -398,7 +398,7 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    This command is useful if you only want
    to find the directory and not the files.
    
-   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+   Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
 
 ## 5) find "xyz" -depth
    All files and folders are listed in depth-first order when using the depth option. 
@@ -440,4 +440,4 @@ written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
    matter a lot. The format can help if the parent
    directory content needs to be found first. 
    
-   Sources: [adamtheautomator.com](https://adamtheautomator.com/bash-find/)
+   Sources: [Click here to access the sources used](https://adamtheautomator.com/bash-find/)
