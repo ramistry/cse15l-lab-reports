@@ -101,7 +101,6 @@ for which they were intended. Once a ply is laid down, it is almost impossible t
 between the plies. With simple spreading machines, the operator must look for fabric defect indicators placed 
 in the selvage by the textile manufacturer.
 ```
-
 ## grep -v pattern dir
  Current working directory: Abernathy
  
