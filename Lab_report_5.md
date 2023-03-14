@@ -1,5 +1,5 @@
 # Using the ```grep``` command (Extension of Lab report 3)
-
+Using skill-demo1-data as the directory
 Five commands being explored here:
 #### 1) grep -r pattern dir: Without regard to case, this command looks for lines in the provided file(s) that have the specified pattern.
 #### 2) grep -i pattern file: This command searches for lines in the specified file(s) that contain the given pattern, ignoring case sensitivity.
