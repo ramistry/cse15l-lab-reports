@@ -1,4 +1,4 @@
-# Using the ```grep``` command
+# Using the ```grep``` command (Extension of Lab report 3)
 
 Five commands being explored here:
 #### 1) grep -r pattern dir: Without regard to case, this command looks for lines in the provided file(s) that have the specified pattern.
