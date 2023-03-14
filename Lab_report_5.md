@@ -146,7 +146,7 @@ From Preassembly to Assembly
  
 
  
- ## grep -c pattern file
+## grep -c pattern file
  Current working directory: Abernathy
  
  Using the command:
@@ -172,7 +172,7 @@ Output
 2
 ```
  
- ## grep -n 
+## grep -n 
  
  Current Working directory 
  
